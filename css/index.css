@@ -1,0 +1,219 @@
+body
+{
+    background-color: rgba(240, 240, 240, 0.37);
+    font-family: 'Comfortaa', Arial !important;
+    text-transform: capitalize;
+}
+.btn
+{
+    border:1px solid #999999;
+    color: #2a2a2b;
+    border-radius:10px;
+    text-transform: capitalize;
+}
+.btn:hover
+{
+   background-color: #3381c9;
+   color: #FFFFFF;
+   transition: all 0.5s ease !important;
+}
+.ui.card
+{
+    margin-top: 70px;
+    box-shadow: 0.5px 0.5px 15px 8px #cddde8 !important;
+    filter: blur(5px) grayscale(.3);
+    transition: all 0.5s ease !important;
+
+}
+.ui.modal>.image.content {
+    display: block;
+     -webkit-box-orient: horizontal;
+    flex-direction: column;
+}
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img, .ui.medium.images svg {
+    display: block;
+    margin: auto;
+    width: 550px;
+    height: 100px;
+    
+
+}
+.ui.modal
+{
+    position: initial;
+}
+h1 {
+    min-height: 1rem;
+    font-size: 1.5rem;
+}
+.post-module {
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: #FFFFFF;
+    min-width: 270px;
+    height: 470px;
+    border: 1px solid rgb(0 0 0 / 5%) !important;
+    box-shadow: 0 0.5rem 1rem rgba(90, 89, 89, 0.1) !important;
+    transition: transform .4s ease-in-out;
+   
+}
+.post-module .thumbnail {
+    background: #000000;
+    height: 400px;
+    overflow: hidden;
+}
+.post-module:hover,
+.hover {
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.post-module:hover .thumbnail img,
+.hover .thumbnail img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+.post-module .thumbnail .date {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background: #3381c9;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    padding: 17.5px 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.post-module .thumbnail img {
+    display: block;
+    width: 120%;
+ 
+}
+.post-module .post-content {
+    position: absolute;
+    bottom: 0;
+    background: #FFFFFF;
+    width: 100%;
+    padding: 30px;
+    transition: all 0.7s ease !important;
+    box-sizing: border-box;
+     -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s; 
+    -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    box-sizing: border-box;
+   
+}
+
+.flox img:hover
+{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s ease !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post-module .post-content .description {
+    display: none;
+    color: #666666;
+     transition: all 0.7s ease !important;
+  
+}
+.post-module .post-content .category {
+    position: absolute;
+    top: -34px;
+    left: 0;
+    background: #3381c9;
+    border-radius:0px 20px 20px 0px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    transition: all 0.7s ease !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.description
+{
+    margin-bottom: 20px;
+}
+
+.event p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #636570;
+    font-weight: 500;
+    font-size: 15px;
+}
+.post-module .post-content .post-meta a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.post-module:hover
+{
+   
+    border: 1px solid rgb(0 0 0 / 5%) !important;
+    cursor: pointer;
+    transition: all 0.5s ease !important;
+}
+.post-module:hover img
+{
+    transform: scale(1.1,1.1);
+    webkit-filter: blur(5px) grayscale(.3);
+    filter: blur(5px) grayscale(.3);
+    transition: all 0.7s ease !important;
+
+}
+.post-module:hover .description
+{
+    display: block;
+    height: 70px;
+    opacity: 1;
+    transition: all 0.5s ease !important;
+}
+.post-module:hover .post-content
+{
+    transition: all 0.5s ease !important;
+  
+}
+
+#seventh,#sixth,#fifth,#fourth,#third,#second,#first,#firr
+{
+    height: 70%;
+    overflow: scroll;
+}
+
+@media(max-width:992px)
+{
+    .description
+    {
+        font-size: 12px;
+    }
+    .btn
+    {
+        margin-top: 20px;
+    }
+}
+@media(max-width:420px)
+{
+    .description
+    {
+        font-size: 12px;
+    }
+    .btn
+    {
+        margin-top: 20px;
+    }
+}
